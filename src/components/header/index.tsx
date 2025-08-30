@@ -11,9 +11,9 @@ export default function Header () {
         <>
             <Navbar className="bg-gray-800">
                 <Container className="flex justify-between">
-                    <Navbar.Brand className="text-white" href="#home">BooksDev</Navbar.Brand>
+                    <Navbar.Brand className="text-white" href="/">BooksDev</Navbar.Brand>
                     <Nav>
-                        <Nav.Link className="text-white" href="#entrar">Entrar</Nav.Link>
+                        <Nav.Link className="text-white" href="login">Entrar</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>

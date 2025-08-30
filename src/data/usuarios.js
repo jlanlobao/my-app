@@ -8,6 +8,8 @@ idBookshelf: identificador unico da estante do usuario,
 profilePicture: url da foto do usuario.
 */
 
+// API do fakeStore para autenticar login
+
 const usuarios = [
   {
     id: 1,

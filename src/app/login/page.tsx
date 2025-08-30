@@ -2,6 +2,14 @@ import Header from "@/components/header";
 import { Container, Button } from "react-bootstrap";
 
 export default function Login() {
+
+  async function handleLogin() {
+    /* A logica do fetch com post no FakeStore */
+
+
+    /* Armazenar o id, username do usuario no localStorage */
+  }
+
   return (
     <>
       <Header />
